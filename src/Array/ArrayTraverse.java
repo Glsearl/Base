@@ -14,8 +14,7 @@ public class ArrayTraverse {
         int min =getMin(arr);
         System.out.println(min);
         //逆序
-        int revers=reversedOrder(arr);
-        System.out.println(reversedOrder(int[]arr));
+        reversedOrder(arr);
     }
     public static int getMax(int[] arr) {
         int max = arr[0];
